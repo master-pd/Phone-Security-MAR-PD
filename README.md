@@ -80,7 +80,7 @@ crond
 
 
 ## Copy past setup 
-``
+```
 pkg update -y && pkg upgrade -y
 pkg install git python bash curl wget nano unzip -y
 pkg install termux-api -y
@@ -95,4 +95,4 @@ rclone config
 crontab -e
 0 2 * * * /data/data/com.termux/files/home/Phone-Security-MAR-PD/phone_backup.sh
 crond
-``
+```
