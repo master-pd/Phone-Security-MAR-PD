@@ -1,0 +1,6 @@
+# Ignore logs & caches
+*.log
+*.db
+.cache/
+tmp/
+rclone.conf
