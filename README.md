@@ -12,15 +12,15 @@
 
 ## INSTALLATION 
 
-`- pkg update -y -
-  -pkg upgrade -y -
-  -pkg install git curl wget nano unzip -y -
-  -pkg install termux-api -y -
-  -pkg install cronie -y -
-  -git clone https://github.com/master-pd/Phone-Security-MAR-PD.git -
-  -cd Phone-Security-MAR-PD -
-  -chmod +x install.sh phone_backup.sh -
-  -bash install.sh -`
+`pkg update -y `
+ ` pkg upgrade -y `
+`pkg install git curl wget nano unzip -y - `
+`pkg install termux-api -y -`
+ `pkg install cronie -y -`
+ `git clone https://github.com/master-pd/Phone-Security-MAR-PD.git -`
+  `cd Phone-Security-MAR-PD -`
+  `chmod +x install.sh phone_backup.sh -`
+  `bash install.sh -`
 
 ## SESSION 2 
 
@@ -34,20 +34,20 @@
 -crond -`
 
 ## INFORMESSION 
-- •CREATOR 
-- •NAME 
-- •CONTACT
-- •YOUTUBE
-- •TIKTOK
-- •FACEBOOK
-- •TOOL NAME
-- •EMAIL
-- •TELEGRAM 
-- •TUTORIAL
-- •USESS
-- •AGE
-- •SKILL
-- •WORK
+.- •CREATOR 
+.- •NAME 
+.- •CONTACT
+.- •YOUTUBE
+.- •TIKTOK
+.- •FACEBOOK
+.- •TOOL NAME
+.- •EMAIL
+.- •TELEGRAM 
+.- •TUTORIAL
+.- •USESS
+.- •AGE
+.- •SKILL
+.- •WORK
 
 
 ## Quick Setup (Termux)
