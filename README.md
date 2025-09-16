@@ -9,20 +9,23 @@
 ## **FULL SETUP & INFORMATION **
 
 ```bash
+
+```
 # ==============================
 # PHONE SECURITY TOOL - MAR PD
 # FULL SETUP + INFORMATION
 # ==============================
 
 # --- STEP 1: UPDATE & INSTALL PACKAGES ---
-pkg update -y
-pkg upgrade -y
-pkg install git curl wget nano unzip -y
-pkg install termux-api -y
-pkg install cronie -y
-pkg install rclone -y
-```
 
+```|
+pkg update -y && pkg upgrade -y
+pkg install git python bash curl wget nano unzip -y
+pkg install termux-api -y
+pkg install rclone -y
+pkg install cronie -y
+
+```
 
 # --- STEP 2: CLONE REPO & MAKE SCRIPTS EXECUTABLE ---
 ```
@@ -74,3 +77,22 @@ crond
 # SKILL: SCRIPT CREATOR
 # WORK: SECURITY
 # ==============================
+
+
+## Copy past setup 
+``
+pkg update -y && pkg upgrade -y
+pkg install git python bash curl wget nano unzip -y
+pkg install termux-api -y
+pkg install rclone -y
+pkg install cronie -y
+git clone https://github.com/master-pd/Phone-Security-MAR-PD.git
+cd Phone-Security-MAR-PD
+chmod +x install.sh phone_backup.sh
+bash install.sh
+rclone config
+./phone_backup.sh
+crontab -e
+0 2 * * * /data/data/com.termux/files/home/Phone-Security-MAR-PD/phone_backup.sh
+crond
+``
